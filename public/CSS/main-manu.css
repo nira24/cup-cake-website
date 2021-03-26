@@ -1,0 +1,67 @@
+.main-menu {
+    text-align:center;
+    margin-bottom: var(--space-medium);
+    background-color:#b34180;
+}
+
+.main-menu a {
+    color: #fceade;
+    font-size:medium;
+
+}
+
+.main-menu a:hover{
+    background-color:#da84d7;
+}
+
+/*Phablets*/
+@media (min-width: 400px){
+.main-menu {
+    
+    margin-bottom: var(--space-medium);
+    font-size:x-large;
+}
+    
+}
+
+/*Tablets*/
+@media (min-width: 550px){
+.main-menu {
+    
+    margin-bottom: var(--space-medium);
+   font-size:x-large;
+}
+}
+
+/*Desktop*/
+@media (min-width: 750px){
+.main-menu {
+    font-size:x-large;
+    margin-bottom: var(--space-medium);
+    
+}
+}
+
+@media (min-width: 400px){
+.main-menu a {
+    font-size:x-large;
+    padding: var(--space-small);
+
+}    
+}
+
+@media (min-width: 550px){
+.main-menu a {
+    font-size:x-large;
+    padding: var(--space-small);
+
+}    
+}
+
+@media (min-width: 750px){
+.main-menu a {
+    font-size:x-large;
+    padding: var(--space-small);
+
+}    
+}

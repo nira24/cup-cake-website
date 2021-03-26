@@ -1,0 +1,27 @@
+.introduction .main{
+    text-align: center;
+}
+.introduction .logo {   
+    width: 150px;
+    height: auto;
+    margin-bottom: var(--space-medium);
+    margin-top: var(--space-medium);   
+}
+
+.introduction .coverphoto {   
+    width: 100%;
+    height: auto;   
+}    
+
+.introduction .cakemaking {
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--space-medium);
+}
+
+
+.introduction .logo {
+    
+    margin-bottom: 0;
+    }
+
